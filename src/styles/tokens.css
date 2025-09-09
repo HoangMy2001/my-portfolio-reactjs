@@ -1,0 +1,17 @@
+:root {
+/*Color System*/
+ --color-bg: #ffffff; /*60% nen trang*/
+ --color-sub: #4a4a4a; /*30% mau phu*/
+ --color-accent: #007bff; /*10% mau nhan*/
+
+/*Typography*/
+ --font-heading: "Montserrat", sans-serif;
+ --font-body: "Inter", sans-serif;
+
+/* Spacing / Radius / Shadow – tiện dùng lại */
+ --space-1: .5rem;
+ --space-2: 1rem;
+ --space-3: 1.5rem;
+ --radius-lg: 1rem;
+ --shadow-md: 0 10px 20px rgba(0,0,0,.05);
+}
