@@ -1,0 +1,113 @@
+.projects {
+    padding: 4rem 0;
+}
+
+.projects__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.star-icon {
+    color: yellow;
+}
+
+.projects__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project__card {
+    overflow: hidden; /*An di neu bi tran ra khoi container*/
+    background: var(--color-sub);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 12px rgba(132, 133, 135, 0.4);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.project__card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(132, 133, 135, 0.8);
+}
+
+.project__image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.project__name {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project__desc {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.project__tech {
+    font-size: 0.95rem;
+}
+
+.projects__links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.link-btn {
+    display: inline-flex;
+    gap: 0.5rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    max-width: fit-content;
+    margin-top: 10px;
+}
+
+.link-btn:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.link-btn svg {
+    font-size: 1.6rem;
+}
+
+/* Responsive for tablet: > 768px && < 1024px */
+@media (max-width: 1024px) {
+    .projects__grid {
+        grid-template-columns: repeat(2, 1fr); /*2 card moi dong*/
+        gap: 2rem;
+    }
+}
+
+/*Responsive for mobile: <= 767px */
+@media (max-width: 767px) {
+    .projects__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .projects__grid {
+        grid-template-columns: 1fr; /*moi dong 1 card*/
+    }
+
+    .project__image {
+        height: 400px;
+    }
+}

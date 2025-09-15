@@ -1,0 +1,16 @@
+.footer {
+    background: var(--color-accent);
+    color: white;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+}
+
+.footer__content p {
+    margin: 0;
+    font-size: 0.9rem;
+}

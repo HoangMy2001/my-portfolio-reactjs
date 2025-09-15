@@ -1,0 +1,77 @@
+.about {
+    padding: 4rem 0;
+}
+
+.about__content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--color-sub);
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.about__greeting {
+    grid-column: 1 / -1; /*Trai dai ca 2 cot*/
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.wave {
+    display: inline-block;
+    animation: waveAnim 2s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes waveAnim {
+    0% {transform: rotate(0deg); }
+    10% {transform: rotate(14deg); }
+    20% {transform: rotate(-8deg); }
+    30% {transform: rotate(14deg); }
+    40% {transform: rotate(-4deg); }
+    50% {transform: rotate(10deg); }
+    60%, 100% {transform: rotate(0deg); }
+}
+
+.about__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__avatar img {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 50%;
+    border: 4px solid #a1a1a1;
+    box-shadow: var(--shadow-md);
+}
+
+.about__right p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.about__right .btn {
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.about__right .btn:hover {
+    box-shadow: 0px 4px 12px rgba(0, 123, 255, 0.8);
+}
+
+/*Responsive for mobile: <= 767px */
+@media (max-width: 767px) {
+    .about__content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about__right p {
+    font-size: 20px;
+}
+}

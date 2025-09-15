@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    margin: 0 0 .5em;
+    margin: 0.5rem 0 0.5rem;
     font-family: var(--font-heading);
     letter-spacing: .2px;
 }
@@ -81,5 +81,13 @@ a:hover, a:focus {
 .container {
   width: min(1100px, 92vw);
   margin: 0 auto;
-  padding: var(--space-3) 0;
+  padding: 1.5rem 0;
+}
+
+/* Responsive for tablet: > 768px && < 1024px */
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
