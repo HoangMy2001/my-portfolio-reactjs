@@ -1,18 +1,43 @@
 # 🌐 Personal Portfolio Website By ReactJS (Frontend)
 
-This is a personal portfolio website project, built to showcase my abilities, skills, personal projects visually and experiences as a Frontend Developer with a strong interest in UI/UX design. With the criteria of convenience, practicality and minimalist design.
+This is my **Personal Portfolio** website, built with **ReactJS** and **pure CSS**. The main goal of the project is to showcase my personal information, skills and outstanding projects visually and experiences as a Frontend Developer with a strong interest in UI/UX design. With the criteria of convenience, practicality and minimalist design. So that employers can quickly evaluate in the first **30 seconds**.
 
 ## ✨ Outstanding features
-- **Responsive Design**: The website works well on computers and phones.
-- **Smooth Scroll**: Makes navigating between sections smoother.
-- **Modern design**: Focuses on content.
-- **Font Awesome integration**: Use professional icons for contact and skills sections.
+- **Header navigation**:
+  - Highlight menu according to the section being viewed.
+  - Toggle menu for mobile/tablet.
+- **About**: Brief personal information.
+- **Projects**:
+  - Display projects in **card layout (3-column grid)**.
+  - Each card has an image, brief description, technology used (separated by commas).
+  - Quick link to **GitHub** repository.
+  - Hover card has box-shadow effect.
+- **Skills**:
+  - Display Frontend Developer skills.
+  - Illustration icon (Rocket).
+- **Contact**:
+  - Contact icon: Email, GitHub, Instagram, LinkedIn.
+  - Click on the icon to go to the corresponding platform.
+  - Hover effect: smooth scale icon.
+- **Responsive**:
+  - Compatible with Desktop, Tablet, Mobile.
+  - Grid project scales appropriately.
+  - Toggle menu works on mobile.
 
 ## 🛠️ Technology used
-- **HTML5 & CSS3**: Basic structure and formatting.
-- **JavaScript (ES6+)**: Handling small interactions like scrolling.
-- **ReactJS**: Building the user interface (UI) using a component-based architecture. I used React to create reusable components (e.g., project cards, header) to manage the application's state and render dynamic content efficiently.
-- **Font Awesome**: Vector icon library.
+- [ReactJS](https://react.dev/) (v18+)
+- Pure CSS
+- [React Icons](https://react-icons.github.io/react-icons/) (FontAwesome, etc.)
+- [Ngrok](https://ngrok.com/) (test website on real device)
+
+## 📂 Main directory structure
+```bash
+src/
+├── assets/ # Images (avatar, image of project)
+├── components/ # Page-level components (About, Projects, Skills, Contact)
+├── styles/ # Contains common css files
+└── App.js # Web entry
+```
 
 ## Instructions for installing and running the project
 To run the project on your computer, follow these steps:
@@ -32,7 +57,7 @@ npm start
 
 ## ✍️ Author
 - Full name: **Ly Thi Hoang My**
-- GitHub: https://github.com/HoangMy2001
-- Instagram: https://www.instagram.com/glendaly0303
-- Portfolio: https://github.com/HoangMy2001/personal-portfolio-website
-- Email: lythihoangmy2001@gmail.com
+- 💻 GitHub: https://github.com/HoangMy2001
+- 📸 Instagram: https://www.instagram.com/glendaly0303
+- 💼 LinkedIn: https://www.linkedin.com/in/hoangmyly-359b97355/
+- 📧 Email: lythihoangmy2001@gmail.com
