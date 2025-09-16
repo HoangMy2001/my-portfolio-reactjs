@@ -1,7 +1,8 @@
 import React from "react";
-import {FaStar, FaGithub} from "react-icons/fa";
+import {FaGithub} from "react-icons/fa";
 
 import projectImage1 from "../assets/img/project-1.png";
+import projectImage2 from "../assets/img/project-2.png";
 
 import "./Projects.css";
 
@@ -18,9 +19,9 @@ const projects = [
     {
         id: 2,
         name: "Portfolio Website",
-        desc: "Đây là website thể hiện dự án và kỹ năng cá nhân.",
+        desc: "Đây là website Portfolio cá nhân của tôi. Mục tiêu chính của dự án là thể hiện thông tin cá nhân, kỹ năng và các dự án nổi bật để nhà tuyển dụng có thể nhanh chóng đánh giá trong 30 giây đầu tiên.",
         tech: ["ReactJS", "CSS"],
-        image: projectImage1,
+        image: projectImage2,
         github: "https://github.com/HoangMy2001/my-portfolio-reactjs"
     },
 

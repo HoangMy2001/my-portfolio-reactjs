@@ -16,10 +16,9 @@ const Skills = () => {
                         <FaCode /> Front-end Development
                     </div>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Front-end Technologies: HTML5, CSS3, JavaScript, ReactJS</li>
+                        <li>Responsive Design: Responsive Web Design (RWD)</li>
+                        <li>Tooling & Version Control: GitHub</li>
                     </ul>
                 </div>
 
@@ -28,10 +27,10 @@ const Skills = () => {
                         <FaPalette /> UX/UI Design
                     </div>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>User Persona</li>
+                        <li>User Journey</li>
+                        <li>Wireframe</li>
+                        <li>Tool: Figma</li>
                     </ul>
                 </div>
             </div>

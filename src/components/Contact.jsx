@@ -12,16 +12,16 @@ const Contact = () => {
             <div className="contact__card">
                 <p>Bạn có thể liên hệ với tôi qua các kênh sau:</p>
                 <div className="contact__links">
-                    <a href="mailto:yourmail@example.com" target="_blank" rel="noreferrer">
+                    <a href="mailto:lythihoangmy2001@gmail.com" target="_blank" rel="noreferrer">
                     <FaEnvelope />
                     </a>
-                    <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/HoangMy2001" target="_blank" rel="noreferrer">
                     <FaGithub />
                     </a>
-                    <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer">
+                    <a href="https://instagram.com/glendaly0303" target="_blank" rel="noreferrer">
                     <FaInstagram />
                     </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/hoangmyly-359b97355/" target="_blank" rel="noreferrer">
                     <FaLinkedin />
                     </a>
                 </div>

@@ -27,7 +27,7 @@
 .skills__card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
     background-color: var(--color-sub);
     padding: 2rem;
