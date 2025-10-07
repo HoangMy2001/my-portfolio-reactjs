@@ -30,7 +30,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <div className="nav__name">Ly Thi Hoang My</div>
+                <div className="nav__name">Fresher Front-end Developer</div>
 
                 <div className="nav__toggle" onClick={() => setMenuOpen(!menuOpen)}>
                     ☰
