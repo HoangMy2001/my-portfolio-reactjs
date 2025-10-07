@@ -25,7 +25,7 @@ This is my **Personal Portfolio** website, built with **ReactJS** and **pure CSS
   - Toggle menu works on mobile.
  
 ## 🎨 UI drawings
-![UI drawings of website](./screenshots/UI design.png)
+![UI drawings of website](./screenshots/UI_design.png)
 
 ## 🛠️ Technology used
 - [ReactJS](https://react.dev/) (v18+)
