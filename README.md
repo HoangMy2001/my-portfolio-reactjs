@@ -23,6 +23,9 @@ This is my **Personal Portfolio** website, built with **ReactJS** and **pure CSS
   - Compatible with Desktop, Tablet, Mobile.
   - Grid project scales appropriately.
   - Toggle menu works on mobile.
+ 
+## 🎨 UI drawings
+![UI drawings of website](./screenshots/UI design.png)
 
 ## 🛠️ Technology used
 - [ReactJS](https://react.dev/) (v18+)
